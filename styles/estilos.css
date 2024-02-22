@@ -1,0 +1,510 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color: #7A88F2;
+        font-family: "Butterfly Kids", cursive;
+        font-weight: 800;
+        font-style: bold;
+      
+}
+
+p{
+    font-family: "Josefin Slab";
+    color: #010730;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 50%;
+}
+
+.logo img{
+    height: 80px;
+    width: auto;
+    margin-left: 30px;
+}
+
+nav .menu{
+    width: 50%;
+    text-align:end;
+    margin-right: 30px;
+}
+
+nav .menu li{    
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+nav .menu a{
+    text-decoration:none;
+    color:#7A88F2;
+}
+
+nav .menu a:hover{
+    color: #010730 ;
+}
+
+.nosotros{
+    height: 500px;
+    
+}
+.nosotros-img{
+    background-image: url("/assets/header.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.nosotros .texto{
+    width: 50%;
+    padding: 80px 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+span{
+    color: #010730;
+}
+
+.nosotros .texto h1{
+    margin-top: 50px;
+}
+
+.texto p{
+    margin-top: 20px;
+   
+}
+
+.planes .texto{
+    width: 60%;
+    padding: 40px;
+}
+
+.planes .materias{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.planes .materias img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.planes .materias p{
+    margin-top: 20px;
+}
+
+.planes .materias .mat{
+    width: 30%;
+    padding: 0px 10px;
+}
+
+.planes .materias .reg{
+    width: 30%;
+    padding: 0px 10px;
+}
+
+.planes .materias .idioma{
+    width: 30%;
+    padding: 0px 10px;
+}
+
+.testimonio .testim{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.testimonio .texto{
+    width: 60%;
+    padding: 40px;
+}
+
+.testimonio .testi1{
+    width: 40%;
+}
+
+.testimonio .testi2{
+    width: 40%;
+}
+
+.testimonio i{
+    margin-bottom: 20px;
+    color: #010730;
+}
+
+.contacto{
+    display: flex;
+}
+.contacto-text{
+    width: 50%;
+    padding: 40px;
+}
+
+.contacto-text p{
+    margin-top: 20px;
+}
+
+.contacto-form{
+    width: 50%;
+}
+
+.contacto-form .nombre{
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.contacto-form input{
+    width: 45%;
+}
+
+.contacto-form .mensaje{
+    width: 90%;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.contacto-form .btn{
+    width: 40%;
+    height: 20px;
+    background-color:#010730;
+    font-family: "Josefin Slab";
+    color: white;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #DCF9D7;
+}
+
+.footer{
+    display: flex;
+    
+}
+
+.footer .footer-logo{
+    width: 20%;
+    text-align: center;
+}
+
+.footer-logo img{
+    width: auto;
+    height: 60px;
+    
+}
+
+.footer-menu{
+    text-align: center;
+    width: 60%;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #2F4EA6;
+}
+
+
+.footer-menu a:hover{
+    color: #010730 ;
+}
+.footer-menu li{
+    
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.footer-redes{
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-redes a{
+    text-decoration: none;
+    color: #010730;
+}
+
+.derechos{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+hr{
+    color: #7A88F2;
+    margin-bottom: 10px;
+}
+
+
+
+/*Nosotros*/
+
+.descripcion{
+    display: flex;
+    height: 400;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.des-text{
+    width: 50%;
+    padding: 40px;
+}
+
+.des-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.des-text .dif{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dif span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.des-img{
+   background-image: url("../assets/potencial.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 100%;
+    width: 50%;
+}
+
+.tutores{
+    padding: 20px;
+}
+
+.tutores .texto{
+    display: grid;
+    place-items: center;
+    padding: 40px;
+}
+
+.tutores .info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.tutores .info h3{
+    text-align: center;
+}
+
+.tutores .info img{
+    background-color: #333;
+    height: auto;
+    width: 50%;
+    margin-bottom: 30px;
+    border-radius: 20%;
+}
+
+.tutores .info p{
+    margin-top: 20px;
+}
+
+.tutores .info .mat{
+    display: ruby;
+    width: 30%;
+}
+
+.tutores .info .reg{
+    display: ruby;
+    width: 30%;
+}
+
+.tutores .info .idioma{
+    display: ruby;
+    width: 30%;
+}
+
+/*Servicios*/
+
+.servicios{
+    padding: 30px;
+    text-align: center;
+}
+
+.servicios p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.servicios-servicio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicios-servicio img{
+    background-color: #333;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.servicios-servicio .servicio1{
+    width: 30%;
+    border: solid 3px #7A88F2;
+
+}
+.servicios-servicio .servicio2{
+    width: 30%;
+    border: solid 3px #7A88F2;
+
+}
+.servicios-servicio .servicio3{
+    width: 30%;
+    border: solid 3px #7A88F2;
+
+}
+
+/*Precios*/
+
+.pago{
+    padding: 30px;
+    text-align: center;
+}
+
+.pago p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+p .izq{
+    text-align: start;
+}
+
+.pago-clase{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pago-clase img{
+    background-color: #333;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.pago-clase li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.pago-clase a{
+    text-decoration: none;
+    background-color: #010730;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.pago-clase .clase-personal{
+    width: 45%;
+    border: solid 3px #7A88F2;
+
+}
+.pago-clase .clase-linea{
+    width: 45%;
+    border: solid 3px #7A88F2;
+
+}
+
+.pago .elegir{
+    margin-bottom: 10px;
+}
+.pago .elegir a{
+    text-decoration: none;
+    color: black;
+    border: solid 1px #7A88F2;
+}
+
+.pago .elegir .select{
+    background-color: #010730;
+    color: #fff;
+}
+
+
+/*Contacto*/
+.informacion-contacto{
+    padding: 40px;
+}
+
+.informacion-contacto .texto{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.informacion-contacto .info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacion-contacto .info .email{
+    text-align: center;
+    padding: 20px;
+    width: 33%;
+}
+
+.informacion-contacto .info .email p{
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.informacion-contacto .info .wp{
+    text-align: center;
+    padding: 20px;
+    width: 33%;
+}
+
+.informacion-contacto .info .wp p{
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.informacion-contacto .info .direccion{
+    text-align: center;
+    padding: 20px;
+    width: 33%;
+}
+
+.informacion-contacto .info .direccion p{
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+.informacion-contacto .info i{
+    color: #010730;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
