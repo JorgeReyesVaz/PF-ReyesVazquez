@@ -1,3 +1,5 @@
+/* Estilos generales */
+
 *{
     padding:0;
     margin:0;
@@ -12,45 +14,38 @@ h1,h2,h3{
       
 }
 
-p{
+
+h1 {
+    font-size: 42px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p,label{
     font-family: "Josefin Slab";
+    color: #010730;
+    font-size: 18px;
+}
+
+span{
     color: #010730;
 }
 
-.header .navbar{
-    display: flex;
-    justify-content: space-between;
-}
-
-nav .logo{
-    width: 50%;
-}
+/* Navbar */
 
 .logo img{
-    height: 80px;
+    height: 70px;
     width: auto;
     margin-left: 30px;
 }
 
-nav .menu{
-    width: 50%;
-    text-align:end;
-    margin-right: 30px;
-}
-
-nav .menu li{    
-    display: inline-block;
-    padding: 20px 10px;
-}
-
-nav .menu a{
-    text-decoration:none;
-    color:#7A88F2;
-}
-
-nav .menu a:hover{
-    color: #010730 ;
-}
+/* Nosotros */
 
 .nosotros{
     height: 500px;
@@ -70,34 +65,17 @@ nav .menu a:hover{
     flex-direction: column;
     flex-wrap: wrap;
 }
-p{
-    font-size: 18px;
-}
-
-h1 {
-    font-size: 42px;
-}
-
-h2{
-    font-size: 32px;
-}
-
-h3{
-    font-size: 30px;
-}
-
-span{
-    color: #010730;
-}
 
 .nosotros .texto h1{
     margin-top: 50px;
 }
 
-.texto p{
+.nosotros .texto p{
     margin-top: 20px;
    
 }
+
+/* Planes */
 
 .planes .texto{
     width: 60%;
@@ -135,6 +113,12 @@ span{
     padding: 0px 10px;
 }
 
+/* Testimonios */
+
+.testimonio{
+    background-color: #dcf9d74d;
+}
+
 .testimonio .testim{
     display: flex;
     margin-bottom: 30px;
@@ -158,6 +142,8 @@ span{
     margin-bottom: 20px;
     color: #010730;
 }
+
+/* Contacto */
 
 .contacto{
     display: flex;
@@ -198,6 +184,8 @@ span{
     color: white;
     margin-bottom: 40px;
 }
+
+/* Footer */
 
 footer{
     background-color: #DCF9D7;
@@ -249,6 +237,8 @@ footer{
     text-decoration: none;
     color: #010730;
 }
+
+
 
 .derechos{
     text-align: center;
@@ -371,21 +361,6 @@ hr{
     object-fit: cover;
 }
 
-.servicios-servicio .servicio1{
-    width: 30%;
-    border: solid 3px #7A88F2;
-
-}
-.servicios-servicio .servicio2{
-    width: 30%;
-    border: solid 3px #7A88F2;
-
-}
-.servicios-servicio .servicio3{
-    width: 30%;
-    border: solid 3px #7A88F2;
-
-}
 
 /*Precios*/
 
@@ -449,7 +424,7 @@ p .izq{
 }
 
 .pago .elegir .select{
-    background-color: #010730;
+    background-color: #7A88F2;
     color: #fff;
 }
 
