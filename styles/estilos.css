@@ -157,38 +157,15 @@ span{
     margin-top: 20px;
 }
 
-.contacto-form{
+.contacto form{
     width: 50%;
-}
-
-.contacto-form .nombre{
-    width: 90%;
-    margin: 20px 0px;
-}
-
-.contacto-form input{
-    width: 45%;
-}
-
-.contacto-form .mensaje{
-    width: 90%;
-    height: 200px;
-    margin: 20px 0px;
-}
-
-.contacto-form .btn{
-    width: 40%;
-    height: 20px;
-    background-color:#010730;
-    font-family: "Josefin Slab";
-    color: white;
-    margin-bottom: 40px;
+    padding: 40px;
 }
 
 /* Footer */
 
 footer{
-    background-color: #DCF9D7;
+    background-color: #7a88f211;
 }
 
 .footer{
@@ -483,3 +460,138 @@ p .izq{
     margin-bottom: 20px;
 }
 
+/* Responsive Footer*/
+
+@media(max-width: 320px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .footer .footer-logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-logo img{
+        width: auto;
+        height: 80px;
+        
+    }
+
+    .footer-menu{
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-menu ul{
+        flex-wrap: wrap;
+        padding: 0px
+    }
+    
+    
+    .footer-menu li{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    
+    .footer-redes{
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .footer-redes a{
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
+/* responsive contacto */
+
+@media(max-width: 690px){
+    .contacto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contacto-text{
+        width: 100%;
+        padding: 40px;
+    }
+    
+    .contacto-text p{
+        margin-top: 20px;
+    }
+    
+    .contacto form{
+        width: 100%;
+        padding: 40px;
+    }
+     
+    .informacion-contacto{
+        padding: 40px;
+    }
+    
+    .informacion-contacto .texto{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    .informacion-contacto .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .informacion-contacto .info .email{
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+    }
+    
+    
+    .informacion-contacto .info .wp{
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+    }
+    
+    
+    .informacion-contacto .info .direccion{
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+    }
+    
+}
+
+@media(max-width: 320px){
+    
+    
+    .informacion-contacto .info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .informacion-contacto .info .email{
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    
+    .informacion-contacto .info .wp{
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    
+    .informacion-contacto .info .direccion{
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+    }
+    
+}
