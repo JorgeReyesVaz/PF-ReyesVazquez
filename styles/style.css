@@ -123,11 +123,15 @@ footer .derechos {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 50px;
+  transition: transform 2s;
 }
 .planes .materias img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+}
+.planes .materias img:hover {
+  transform: rotate(350deg);
 }
 .planes .materias p {
   margin-top: 20px;
@@ -184,6 +188,11 @@ footer .derechos {
 }
 
 /*Página Nosotros*/
+.informacion-contacto .info .direccion p, .informacion-contacto .info .wp p, .informacion-contacto .info .email p {
+  text-align: justify;
+  margin: 20px 0px;
+}
+
 /*Página Nosotros*/
 .descripcion {
   display: flex;
@@ -272,6 +281,9 @@ footer .derechos {
   width: 30%;
   margin-bottom: 10px;
 }
+.servicios .servicios-servicio .card:hover {
+  transform: scale(1.1);
+}
 .servicios .servicios-servicio img {
   background-color: #333;
   width: 100%;
@@ -312,6 +324,11 @@ footer .derechos {
 }
 
 /*Contacto*/
+.informacion-contacto .info .direccion p, .informacion-contacto .info .wp p, .informacion-contacto .info .email p {
+  text-align: justify;
+  margin: 20px 0px;
+}
+
 /*Contacto*/
 .informacion-contacto {
   padding: 40px;
@@ -326,30 +343,18 @@ footer .derechos {
 }
 .informacion-contacto .info .email {
   text-align: center;
-  padding: 20px;
   width: 33%;
-}
-.informacion-contacto .info .email p {
-  text-align: justify;
-  margin: 20px 0px;
+  padding: 20px;
 }
 .informacion-contacto .info .wp {
   text-align: center;
-  padding: 20px;
   width: 33%;
-}
-.informacion-contacto .info .wp p {
-  text-align: justify;
-  margin: 20px 0px;
+  padding: 20px;
 }
 .informacion-contacto .info .direccion {
   text-align: center;
-  padding: 20px;
   width: 33%;
-}
-.informacion-contacto .info .direccion p {
-  text-align: justify;
-  margin: 20px 0px;
+  padding: 20px;
 }
 .informacion-contacto .info i {
   color: #010730;
@@ -358,9 +363,9 @@ footer .derechos {
 }
 
 /*Responsive*/
-.flex-adaptativo {
-  display: flex;
-  flex-wrap: wrap;
+.informacion-contacto .info .email p, .informacion-contacto .info .wp p, .informacion-contacto .info .direccion p {
+  text-align: justify;
+  margin: 20px 0px;
 }
 
 /* Responsive General Footer*/

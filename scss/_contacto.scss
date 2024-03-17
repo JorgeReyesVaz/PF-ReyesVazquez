@@ -1,0 +1,41 @@
+@import "repetidos";
+/*Contacto*/
+
+.informacion-contacto{
+    padding: 40px;
+    .texto{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+        .email{
+            text-align: center;
+            @include acomodo(33%,20px);
+            p{
+                @extend %texto-alineacion;
+            }
+        }
+        .wp{
+            text-align: center;
+            @include acomodo(33%,20px);
+            p{
+                @extend %texto-alineacion;
+            }
+        }
+        .direccion{
+            text-align: center;
+            @include acomodo(33%,20px);
+            p{
+                @extend %texto-alineacion;
+            }
+            
+        }
+        i{
+            color: #010730;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+    }
+}

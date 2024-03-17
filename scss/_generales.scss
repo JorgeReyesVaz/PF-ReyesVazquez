@@ -1,0 +1,106 @@
+$Tipografia:(
+    tipografiaEncabezados:"Butterfly Kids", cursive
+    tipografiaParrafos: "Josefin Slab"
+);
+
+/* Estilos generales */
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color: $colorPrincipal;
+    font-family: map-get($Tipografia,tipografiaEncabezados) ;
+    font-weight: 800;
+    font-style: bold;
+      
+}
+
+
+h1 {
+    font-size: 42px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p,label{
+    font-family: map-get($Tipografia,tipografiaParrafos);
+    color: $colorSecundario;
+    font-size: 18px;
+}
+
+span{
+    color: $colorPrincipal;
+}
+
+hr{
+    color: $colorPrincipal;
+    margin-bottom: 10px;
+}
+
+/* Navbar */
+
+.logo{
+    img{
+        height: 70px;
+        width: auto;
+        margin-left: 30px;
+    }
+}
+
+/* Footer */
+
+footer{
+    background-color: $colorFooter;
+    .footer{
+        display: flex;
+        .footer-logo{
+            width: 20%;
+            text-align: center;
+            img{
+                width: auto;
+                height: 60px; 
+            }
+        }
+        .footer-menu{
+            text-align: center;
+            width: 60%;
+            a{
+                text-decoration: none;
+                color: $colorMenu;
+                &:hover{
+                    color: $colorSecundario ;
+                }
+            }
+            li{
+    
+                display: inline-block;
+                padding: 20px 10px;
+            }
+        }
+        .footer-redes{
+            width: 20%;
+            text-align: center;
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $colorSecundario;
+            }
+        }
+        
+    }
+    .derechos{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+}

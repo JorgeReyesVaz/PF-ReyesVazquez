@@ -1,0 +1,33 @@
+/*Página Precios*/
+
+.pago{
+    padding: 30px;
+    text-align: center;
+    p{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        .izq{
+            text-align: start;
+        }
+    }
+    .pago-clase{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        
+    }
+    .elegir{
+        margin-bottom: 10px;
+        a{
+            text-decoration: none;
+            color: black;
+            border: solid 1px #7A88F2;
+        }
+        .select{
+            background-color: #7A88F2;
+            color: #fff;
+        }
+        
+        
+    }
+}

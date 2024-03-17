@@ -1,0 +1,320 @@
+@import "repetidos";
+/* Responsive General Footer*/
+
+@media(max-width: 320px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        .footer-logo{
+            width: 100%;
+            text-align: center;
+            img{
+                width: auto;
+                height: 80px;
+                
+            }
+        }
+        .footer-menu{
+            text-align: center;
+            width: 100%;
+            ul{
+                flex-wrap: wrap;
+                padding: 0px
+            }
+            li{
+                width: 100%;
+                padding: 20px 10px;
+            }
+        }
+        .footer-redes{
+            width: 100%;
+            text-align: center;
+            a{
+                padding: 20px;
+                font-size: 20px;
+            }
+          
+        }
+        
+    }
+   
+}
+
+/* responsive Inicio */
+
+@media(max-width: 690px){
+
+    .nosotros{
+        height: auto;
+        .nosotros-img{
+            background-image: none;
+            background-color: $colorNosotros;
+            .texto{
+                align-items: center;
+                width: 100%;
+                padding: 40px;
+            }
+        }
+        
+    }
+
+    .planes{
+        display: flex;
+        flex-wrap: wrap;
+        .texto{
+            @include acomodo(100%,40px);
+        }
+        .materias{
+            display: flex;
+            flex-wrap: wrap;
+            .mat{
+                @include acomodo(50%,40px);
+            }
+            .reg{
+                @include acomodo(50%,40px);
+            }
+            .idioma{
+                @include acomodo(50%,40px);
+            }
+        
+        }
+    }
+    
+    .testimonio{
+        display: flex;
+        flex-wrap: wrap;
+        .texto{
+            @include acomodo(100%,40px);
+        }
+        .testim{
+            display: flex;
+            flex-wrap: wrap;
+            .testi1{
+                @include acomodo(100%,40px);
+            }
+            .testi2{
+                @include acomodo(100%,40px);
+            }
+        
+        }
+    }
+
+    .contacto{
+        display: flex;
+        flex-wrap: wrap;
+        .contacto-text{
+            @include acomodo(100%,40px);
+            p{
+                margin-top: 20px;
+            }
+        }
+        form{
+            @include acomodo(100%,40px);
+        }
+    }
+    
+}
+
+@media(max-width: 320px){
+
+    .nosotros{
+        height: 500px;
+        
+    }
+    
+    .planes{
+        .materias{
+            display: flex;
+            flex-wrap: wrap;
+            .mat{
+                @include acomodo(100%,40px);
+            }
+            .reg{
+                @include acomodo(100%,40px);
+            }
+            .idioma{
+                @include acomodo(100%,40px);
+            }
+            
+        }
+    }
+}
+
+/* responsive Nosotros */
+
+@media(max-width: 690px){
+
+    .descripcion{
+        display: contents;
+        flex-wrap: wrap;
+        .des-text{
+            @include acomodo(100%,40px);
+        }
+        .des-img{
+            background-attachment: fixed;
+             height: 100%;
+             width: 100%;
+         }
+    }
+         
+     .tutores{
+        .texto{
+            display: grid;
+            place-items: center;
+            padding: 40px;
+        }
+        .info{
+            display: flex;
+           flex-wrap: wrap;
+           .mat{
+            display: ruby;
+            width: 50%;
+            }
+            .reg{
+                display: ruby;
+                width: 50%;
+            }
+            .idioma{
+                display: ruby;
+                width: 50%;
+            }
+            img{
+                background-color: white;
+                @include acomodo(100%,40px);
+             }
+        }
+     } 
+}
+
+@media(max-width: 320px){
+
+    .tutores{
+        .info{
+            display: flex;
+            flex-wrap: wrap;
+           .mat{
+            display: ruby;
+            width: 100%;
+            }
+            .reg{
+                display: ruby;
+                width: 100%;
+            }
+            .idioma{
+                display: ruby;
+                width: 100%;
+            }
+        }
+
+    } 
+
+}
+
+/* responsive Servicios */
+
+@media(max-width: 690px){
+
+    .servicios{
+        display: flex;
+        flex-wrap: wrap;
+        .servicios-texto{
+            @include acomodo(100%,40px);
+        }
+        .servicios-servicio{
+            display: flex;
+            flex-wrap: wrap;
+            .card{
+                width: 45%;
+               
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 320px){
+
+    .servicios{
+        .servicios-servicio{
+            display: flex;
+            flex-wrap: wrap;
+            .card{
+                width: 90%;
+                
+            }
+        }
+
+    } 
+    
+}
+
+/* responsive contacto */
+
+@media(max-width: 690px){
+    .contacto{
+        display: flex;
+        flex-wrap: wrap;
+        .contacto-text{
+            @include acomodo(100%,40px);
+            p{
+                margin-top: 20px;
+            }
+        }
+        form{
+            @include acomodo(100%,40px);
+        }
+    }
+     
+    .informacion-contacto{
+        padding: 40px;
+        .texto{
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .info{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .email{
+                text-align: center;
+                @include acomodo(50%,20px);
+            }
+            .wp{
+                text-align: center;
+                @include acomodo(50%,20px);
+            }
+            .direccion{
+                text-align: center;
+                @include acomodo(50%,20px);
+            }
+            
+        }
+    }
+    
+}
+
+@media(max-width: 320px){
+    
+    
+    .informacion-contacto{
+        .info{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .email{
+                text-align: center;
+                @include acomodo(100%,20px);
+            }
+            .wp{
+                text-align: center;
+                @include acomodo(100%,20px);
+            }
+            .direccion{
+                text-align: center;
+                @include acomodo(100%,20px);
+            }
+        }
+
+    } 
+
+}

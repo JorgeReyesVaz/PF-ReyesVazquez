@@ -1,0 +1,10 @@
+//Estilos repetitivos
+%texto-alineacion{
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+@mixin acomodo($ancho,$espaciado){
+    width: $ancho;
+    padding: $espaciado;
+}
